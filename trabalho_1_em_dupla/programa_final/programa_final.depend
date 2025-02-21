@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1730746496 source:c:\backup\davi_2\usp\bcc\2024_02 - 2º período\introdução à computação ii\trabalho 1 (dupla)\programa final\main.cpp
+	<ctime>
+	<iostream>
+	<cstdlib>
+
