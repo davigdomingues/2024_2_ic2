@@ -1,9 +1,9 @@
 /*letra a e b:
 Procedimento recHanoi( discos , inicio , fim , temporario ):
-Entrada: n˙mero do disco, torres inicial, final e tempor·ria
+Entrada: n√∫mero do disco, torres inicial, final e tempor√°ria
 se discos > 0
 recHanoi ( discos-1 , inicio , temporario , fim )
-escreva (ìMova disco î , discos , î da torre ì , inicio , ì para a torre ì, fim )
+escreva (‚ÄúMova disco ‚Äù , discos , ‚Äù da torre ‚Äú , inicio , ‚Äú para a torre ‚Äú, fim )
 recHanoi ( discos-1 , temporario , fim , inicio )
 fim se
 retorne
@@ -39,7 +39,7 @@ return 0;
 }
 */
 
-/*letra c: (tempos anotados no caderno)
+/*letra c:
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -51,7 +51,7 @@ void recHanoi(int discos, int inicio, int fim, int temporario){
     }
 }
 
-int main(){ //Obs: a quantia de torres È sempre 3!
+int main(){ //Obs: a quantia de torres √© sempre 3!
     clock_t time1, time2;
     int totalDiscos;
     double tempoFinal = 0.0;
@@ -70,7 +70,7 @@ return 0;
 }
 */
 
-//letra d: (tempos anotados no caderno)
+//letra d:
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -84,7 +84,7 @@ void recHanoi(int discos, int inicio, int fim, int temporario){
     }
 }
 
-int main(){ //Obs: a quantia de torres È sempre 3!
+int main(){ //Obs: a quantia de torres √© sempre 3!
     int totalDiscos, torreInicial, torreFinal, torreTemporaria;
     totalVariaveisPrograma += 4;
 
