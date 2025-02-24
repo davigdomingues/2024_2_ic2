@@ -12,19 +12,19 @@ struct Registro{
 
 void preencherRegistro(int limite, Registro *registro){
     for (int i = 0; i < limite; i++){
-        /*cout<<"Nome do registrado "<<(i+1)<<": ";
+        cout<<"Nome do registrado "<<(i+1)<<": ";
         getline(cin, registro[i].nome);
 
-        while (registro[i].nome.empty()){ // verificação de dados.
+        while (registro[i].nome.empty()){ // verificaÃ§Ã£o de dados.
             cout<<"Informe um nome valido: ";
             getline(cin, registro[i].nome);
         }
-        */
+        
         cout<<"Idade do registrado "<<(i+1)<<": ";
         cin>>registro[i].idade;
         cin.ignore();
 
-        while (registro[i].idade <= 0){ // verificação de dados.
+        while (registro[i].idade <= 0){ // verificaÃ§Ã£o de dados.
             cout<<endl<<"Informe um numero inteiro valido!"<<endl;
             cout<<"Idade do registrado "<<(i+1)<<": ";
             cin>>registro[i].idade;
@@ -34,7 +34,7 @@ void preencherRegistro(int limite, Registro *registro){
     }
 }
 
-void ordenacaoRegistroViaQuickSort(int esquerda, int direita, Registro *registro){ // limite = direita, nas execuções recursivas
+void ordenacaoRegistroViaQuickSort(int esquerda, int direita, Registro *registro){ // limite = direita, nas execuÃ§Ãµes recursivas
     int i = esquerda, j = direita;
     Registro x = registro[(i + j)/2];
     Registro aux;
