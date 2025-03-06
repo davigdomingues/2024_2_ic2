@@ -4,6 +4,6 @@ Códigos produzidos durante a ministração da disciplina "Introdução à Ciên
 
 No trabalho em dupla, houve colaboração de Francisco Eduardo Fontenele (perfil: https://github.com/fontflows [GitHub], https://www.linkedin.com/in/fonteneleeduardo/ [Linkedln]). 
 
-A versão presente neste repositório é a primeira.
+A versão do trabalho em dupla presente neste repositório é a primeira.
 
 Repositório da segunda versão do trabalho em dupla: https://github.com/fontflows/SortingAlgorithms_IC2.
