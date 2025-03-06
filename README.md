@@ -7,3 +7,5 @@ No trabalho em dupla, houve colaboração de Francisco Eduardo Fontenele (perfil
 A versão do trabalho em dupla presente neste repositório é a primeira.
 
 Repositório da segunda versão do trabalho em dupla: https://github.com/fontflows/SortingAlgorithms_IC2.
+
+Ementa oficial da disciplina: https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=5954006&codcur=59080&codhab=0
